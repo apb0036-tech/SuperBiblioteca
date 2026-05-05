@@ -26,7 +26,6 @@ public class Libro {
         prestado = true;
     }
 
-
     public void devolver() {
         if (!prestado) {
             throw new IllegalStateException("No se puede devolver un libro no prestado");
